@@ -8,28 +8,29 @@ body {
     background-color: #d9dcd6;
 }
 
+/*  .header refers to the entire upper banner portion of this webpage */
 .header  {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
-   
-
+    
 }
 
+/* .header h1 refers to the specific text "Horiseon"*/
 .header h1{
     display: inline-block;
-    font-size: 48px;
-   
+    font-size: 48px; 
 }
 
 
+/* .seo is litearlly, an text change for color in the top banner */
 .seo {
     color: #d9dcd6;
 }
 
-
-.header div {
+/* Header section refers to the portion of the upper banner that encompasses the ul, li etc */
+.header section{
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -38,24 +39,26 @@ body {
    
 }
 
-
-.header div ul li {
+/* Ul was unneeded since the below styling only affects the Li element */
+li {
     list-style-type: none;
     display: inline-block;
     margin-left: 25px;
 }
 
-
+/* A generic, global tag that affects the color of hyperlink */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* A generic, global styling that affects P (paragraph) font sizes */
 p {
     font-size: 16px;
 }
 
-.hero {
+/* Changed the name of Hero to something, that is better description */
+.MainImage {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -66,13 +69,14 @@ p {
 
 
 
-
+/* content is litearlly everything below .MainImage. Content denotes the width of the entire space beneath .MainImage */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;  
 }
 
+/* Benefits is litearlly, a box that contains .benefit-explanation. It sets the rules for width and height of all elements contained within */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -84,18 +88,20 @@ p {
     background-color: #2589bd;
 }
 
+/* Benefit explanation denotes how far the margin bottom is, and the color of the text within */
 .benefit-explanation {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-
-
+/* The h3 tag is used to specifically target the h3 of benefit-explanation. Do note that while h3 is centered, the 
+actual h3 on the webpage has been pushed left/right by the .benefit-explanation img */
 .benefit-explanation h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* It shows the image maximum width to be 150px, with a margin of 10px */
 .benefit-explanation img {
     display: block;
     margin: 10px auto;
@@ -103,6 +109,8 @@ p {
 }
 
 
+/* LowerContent, is probably a bad name, since it refers to the block of 3 blue boxes, that take up the 
+majority of space beneath .MainImage. LowerContent sets the color of the text found in the blue boxes */
 .LowerContent {
     margin-bottom: 20px;
     padding: 50px;
@@ -113,6 +121,7 @@ p {
 }
 
 
+/* Dont mess with these things, they actually describe the orientation of the img correctly */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -133,6 +142,7 @@ p {
 }
 
 
+/* I've combined Footer and Footer h2 to be one single thing. Honestly i think its easier to refract the code from the bottom of the CSS */
 .footer h2{
     padding: 30px;
     clear: both;
