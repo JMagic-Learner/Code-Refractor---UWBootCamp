@@ -18,7 +18,7 @@ header  {
 }
 
 /* .header h1 refers to the specific text "Horiseon"*/
-.UpperBanner h1{
+.upper-banner h1{
     display: inline-block;
     font-size: 48px; 
 }
@@ -58,7 +58,7 @@ p {
 }
 
 /* Changed the name of Hero to something, that is better description */
-.MainImage {
+.main-image {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -111,7 +111,7 @@ actual h3 on the webpage has been pushed left/right by the .benefit-explanation 
 
 /* LowerContent, is probably a bad name, since it refers to the block of 3 blue boxes, that take up the 
 majority of space beneath .MainImage. LowerContent sets the color of the text found in the blue boxes */
-.LowerContent {
+.lower-content {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
