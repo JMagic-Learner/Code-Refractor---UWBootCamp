@@ -30,7 +30,7 @@ header  {
 }
 
 /* Header section refers to the portion of the upper banner that encompasses the ul, li etc */
-.BannerSpecific{
+.banner-specific{
     padding-top: 15px;
     margin-right: 20px;
     float: right;
